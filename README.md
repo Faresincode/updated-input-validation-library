@@ -17,10 +17,8 @@ Enables clean, readable, and feature-rich console printing — from text formatt
 Handles user input safely, checking for type errors, number ranges, positivity, odd/even/prime/perfect/palindrome properties, and more.
 
 ---
-
-##📁 Project Structure
-
-###📦 CppUtilityLibrary
+## 📁 Project Structure
+### ✨ CppUtilityLibrary
 
 📜 clsPrint.h — Printing and formatting class
 
