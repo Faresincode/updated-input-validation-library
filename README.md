@@ -151,22 +151,24 @@ Enter a prime number: 13
 | `static void SaveStringToFile(string filename, string text);` | Save text to a file |
 
 
-clsInputValidate
---------------------------------
-static bool IsValidLastInput();
-template<typename T> static bool IsNumberBetween(T number, T from, T to);
-template<typename T> static T ReadNumber(string errorMsg);
-template<typename T> static T ReadNumberBetween(T from, T to, string errorMsg);
-template<typename T> static T ReadPositiveNumber(string errorMsg);
-template<typename T> static T ReadNegativeNumber(string errorMsg);
-template<typename T> static T ReadOddNumber(string errorMsg);
-template<typename T> static T ReadEvenNumber(string errorMsg);
-template<typename T> static T ReadPrimeNumber(string errorMsg);
-template<typename T> static T ReadPerfectNumber(string errorMsg);
-template<typename T> static T ReadPalindromeNumber(string errorMsg);
-static string ReadString();
-static char ReadCharacter(string errorMsg);
-static bool ReadBoolean(string errorMsg);
+## ✅ clsInputValidate — Public Methods  
+
+| Method | Description |
+|:------------------------------------------------------------|:------------------------------------------------------------|
+| `static bool IsValidLastInput();` | Check if the last input operation was valid |
+| `template<typename T> static bool IsNumberBetween(T number, T from, T to);` | Check if a number lies between two values |
+| `template<typename T> static T ReadNumber(string errorMsg);` | Read a number safely with error handling |
+| `template<typename T> static T ReadNumberBetween(T from, T to, string errorMsg);` | Read a number within a given range |
+| `template<typename T> static T ReadPositiveNumber(string errorMsg);` | Read a positive number only |
+| `template<typename T> static T ReadNegativeNumber(string errorMsg);` | Read a negative number only |
+| `template<typename T> static T ReadOddNumber(string errorMsg);` | Read an odd number only |
+| `template<typename T> static T ReadEvenNumber(string errorMsg);` | Read an even number only |
+| `template<typename T> static T ReadPrimeNumber(string errorMsg);` | Read a prime number only |
+| `template<typename T> static T ReadPerfectNumber(string errorMsg);` | Read a perfect number only |
+| `template<typename T> static T ReadPalindromeNumber(string errorMsg);` | Read a palindrome number only |
+| `static string ReadString();` | Read a complete string input |
+| `static char ReadCharacter(string errorMsg);` | Read a single character safely |
+| `static bool ReadBoolean(string errorMsg);` | Read a boolean value (0 or 1) |
 
 ---
 
