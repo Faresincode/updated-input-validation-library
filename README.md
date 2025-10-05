@@ -136,18 +136,19 @@ Enter a prime number: 13
 🖨️ clsPrint — Public Methods
 --------------------------------
 
-static void Print(string text); — Print a string to the console.
-static string Tabs(int count); — Return tab spacing for indentation.
-static void PrintPrimeNumbers(int from, int to); — Print all prime numbers in a range.
-static void PrintEvenNumbers(int from, int to); — Print even numbers in a range.
-static void PrintOddNumbers(int from, int to); — Print odd numbers in a range.
-static void PrintPerfectNumbers(int from, int to); — Print perfect numbers in a range.
-static void PrintPalindromeNums(int from, int to); — Print palindrome numbers in a range.
-static void PrintFibonatchiSerie(int number); — Print a Fibonacci sequence.
-static void PrintFirstLetterOfWords(string s); — Print the first letter of each word.
-static void PrintVowels(string s); — Print all vowels in a string.
-static void PrintEachWord(string s); — Print each word on a new line.
-static void SaveStringToFile(string filename, string text); — Save text to a file.
+static void Print(string text);                         // Print a string to the console
+static string Tabs(int count);                          // Return tab spacing for indentation
+static void PrintPrimeNumbers(int from, int to);        // Print all prime numbers in a range
+static void PrintEvenNumbers(int from, int to);         // Print even numbers in a range
+static void PrintOddNumbers(int from, int to);          // Print odd numbers in a range
+static void PrintPerfectNumbers(int from, int to);      // Print perfect numbers in a range
+static void PrintPalindromeNums(int from, int to);      // Print palindrome numbers in a range
+static void PrintFibonatchiSerie(int number);           // Print a Fibonacci sequence
+static void PrintFirstLetterOfWords(string s);          // Print the first letter of each word
+static void PrintVowels(string s);                      // Print all vowels in a string
+static void PrintEachWord(string s);                    // Print each word on a new line
+static void SaveStringToFile(string filename, string text); // Save text to a file
+
 
 clsInputValidate
 --------------------------------
