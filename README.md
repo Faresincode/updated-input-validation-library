@@ -20,13 +20,13 @@ Handles user input safely, checking for type errors, number ranges, positivity, 
 
 ## 📁 Project Structure
 📦 CppUtilityLibrary
- ┣ 📜 clsPrint.h              # Printing and formatting class
- ┣ 📜 clsInputValidate.h      # Input validation class
- ┣ 📜 clsString.h             # String helper utilities (vowels, parsing, etc.)
- ┣ 📜 clsMath.h               # Math helper utilities (prime, palindrome, perfect, etc.)
- ┣ 📜 clsUtil.h               # Utility helper (random chars, keys, levels)
- ┣ 📜 main.cpp                # Example usage and testing
- ┗ 📄 README.md               # Documentation file
+ 📜 clsPrint.h              # Printing and formatting class
+ 📜 clsInputValidate.h      # Input validation class
+ 📜 clsString.h             # String helper utilities (vowels, parsing, etc.)
+ 📜 clsMath.h               # Math helper utilities (prime, palindrome, perfect, etc.)
+ 📜 clsUtil.h               # Utility helper (random chars, keys, levels)
+ 📜 main.cpp                # Example usage and testing
+ 📄 README.md               # Documentation file
 
 ---
 
